@@ -6,7 +6,7 @@ def sort_list(mylist):
         while n - i - 1 > k:
             
             if mylist[k] > mylist[k + 1]:
-                mylist[k], mylist[k + 1] = mylist[k + 1], mylist[i]
+                mylist[k], mylist[k + 1] = mylist[k + 1], mylist[k]
             
             k = k + 1
                 
