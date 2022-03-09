@@ -18,5 +18,5 @@ def calculate_time(func):
 def func():
     time.time()
 
-func()
+
 
