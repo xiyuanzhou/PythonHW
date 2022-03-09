@@ -5,14 +5,14 @@ def calculate_time(func):
     def wrapper():
         
         start = time.time()
-        func()
         end = time.time()
-        print (f'Total time: {str(end - start)}')
+        
+        print (f'Total time: {func(end - start)}')
     return wrapper
 
 @calculate_time
-def func():
-    return 
+def func(times):
+    return times
 
 
 
