@@ -15,5 +15,4 @@ def calculate_time(func):
 def func():
     return time.time()
 
-
-
+func()
