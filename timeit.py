@@ -6,14 +6,14 @@ def calculate_time(func):
         start = time.time()
         func()
         end = time.time()
-        print(f'Total time: {end - start}')
-        return func()
+        print(f'Total time: {str(end - start)}')
+        
+        
     return wrapper
-
 
 @calculate_time
 def func():
-    pass
+    return time.time()
 
 
 
