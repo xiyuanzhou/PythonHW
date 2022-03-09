@@ -3,10 +3,10 @@ import time
 
 def calculate_time(func):
     def wrapper():
-        start = time.time()
-        #func()
-        end = time.time()
-        runtime = end - start
+        begin_time = time.time()
+        func()
+        finish_run = time.time()
+        runtime = finish_run - begin_time
         print(f'Total time {runtime}')
         #return value
         
