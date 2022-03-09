@@ -4,7 +4,7 @@ import time
 def calculate_time(func):
     def wrapper():
         start = time.time()
-        value = func()
+        func()
         end = time.time()
         runtime = end - start
         print(f'Total time {runtime}')
