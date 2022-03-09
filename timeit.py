@@ -8,7 +8,7 @@ def calculate_time(func):
         end = time.time()
         runtime = end - start
         print(f'Total time {str(runtime)}')
-        return value
+        #return value
         
     return wrapper
 
