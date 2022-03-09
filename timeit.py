@@ -7,12 +7,13 @@ def calculate_time(func):
         func()
         end = time.time()
         print(f'Total time: {end - start}')
+        
     return wrapper
 
 
 @calculate_time
 def func():
-    return 0
+    pass
 
 
 
