@@ -37,7 +37,7 @@ for items in range(len(mylist)):
 
 
             
-#print(mylist)
+print(mylist)
 final_temp = []
 
 for index in range(0,5):
