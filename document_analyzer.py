@@ -37,7 +37,7 @@ for items in range(len(mylist)):
 
 
             
-print(mylist)
+print('')
 
 
 final_temp = []
