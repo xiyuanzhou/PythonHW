@@ -38,6 +38,8 @@ for items in range(len(mylist)):
 
             
 print(mylist)
+
+"""
 final_temp = []
 
 for index in range(0,5):
@@ -72,6 +74,7 @@ for i in range(len(final_temp)):
 #print(sort_value)
 
 
+"""
 myfile.close()
     
  
