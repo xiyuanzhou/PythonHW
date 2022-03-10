@@ -48,9 +48,17 @@ for i in range(len(final_temp)):
         if final_temp[k][0] > final_temp[k+1][0]:
             final_temp[k], final_temp[k+1] = final_temp[k+1], final_temp[k]
 
-print(final_temp)
+for items in range(len(final_temp)):
     
-    #print(f'{mylist[index][0]}: {mylist[index][1]}')
+    for k in range(0,(len(final_temp)- items - 1)):
+        if final_temp[k][1] < final_temp[k+1][1]:
+            final_temp[k], final_temp[k+1] = final_temp[k+1], final_temp[k]
+
+#print(final_temp)
+
+for i in range(len(final_temp)):
+    
+    print(f'{final_temp[i][0]}: {final_temp[i][1]}')
     
 #sort_value = sorted(cout_word.values())
 
